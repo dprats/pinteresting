@@ -8,7 +8,7 @@
 		</div>
 		<p>
 	 	 <%= @pin.description %>
-	 	 <strong><%= @pin.user.email if @pin.user %></strong>  
+	 	 <strong><%= @pin.user.name if @pin.user %></strong>  
 		</p>
 
 		<% if @pin.user == current_user %>
