@@ -1,0 +1,4 @@
+pinteresting
+============
+
+Rails sample app
